@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashutosh's Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .highlight {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Ashutosh's Website</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm <span class="highlight">Ashutosh</span>. I have over 5 years of experience as a Service Delivery Manager and am transitioning into the field of Business Intelligence and Data Analytics. My expertise includes Power BI, Python, and effective service delivery. I aim to create impactful solutions that drive business success.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Coming soon: Showcase of my Power BI dashboards, Python projects, and analytics case studies.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me for collaboration or queries:</p>
+        <ul>
+            <li>Email: <a href="mailto:ashutosh@example.com">ashutosh@example.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/ashutosh" target="_blank">linkedin.com/in/ashutosh</a></li>
+        </ul>
+    </section>
+    <footer>
+        &copy; 2024 Ashutosh. All rights reserved.
+    </footer>
+</body>
+</html>
